@@ -1,5 +1,11 @@
 # @jacksgreen/is-even
 
+## 0.0.6
+
+### Patch Changes
+
+- e87f794: fix even
+
 ## 0.0.5
 
 ### Patch Changes
