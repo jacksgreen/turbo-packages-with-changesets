@@ -1,5 +1,11 @@
 # @jacksgreen/core
 
+## 0.0.6
+
+### Patch Changes
+
+- bfd31c7: patch test
+
 ## 0.0.5
 
 ### Patch Changes
