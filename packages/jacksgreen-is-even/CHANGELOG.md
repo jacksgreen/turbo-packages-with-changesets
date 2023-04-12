@@ -1,5 +1,11 @@
 # @jacksgreen/is-even
 
+## 0.0.4
+
+### Patch Changes
+
+- 6ac3f3a: updating imports
+
 ## 0.0.3
 
 ### Patch Changes
