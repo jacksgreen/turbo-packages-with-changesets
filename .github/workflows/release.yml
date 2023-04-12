@@ -32,3 +32,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PA_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Merge changets pr if its created
+        if: steps.changesets.outputs == 'true'
+        # You can do something when a publish happens.
+        run: yarn
