@@ -6,13 +6,13 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
-  - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v8.6.0
+  - repo: local
     hooks:
       - id: eslint
-        exclude: node_modules
-        files: \.[jt]sx?$ # *.js, *.jsx, *.ts and *.tsx
-        types: [file]
+        name: eslint
+        entry: npx eslint --fix
+        language: node
+        exclude: ^(.(?!.*\.ts$|.*\.tsx))*$
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v2.5.1
     hooks:
