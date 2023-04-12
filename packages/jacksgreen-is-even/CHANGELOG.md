@@ -1,5 +1,11 @@
 # @jacksgreen/is-even
 
+## 0.0.3
+
+### Patch Changes
+
+- 8c81fc2: bump
+
 ## 0.0.2
 
 ### Patch Changes
