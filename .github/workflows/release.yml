@@ -11,6 +11,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
@@ -35,7 +36,7 @@ jobs:
 
       - name: Version packages
         with:
-          token: ${{ secrets.PA_TOKEN }}
+          token: ${{ secrets.PUSH_TO_PROTECTED_BRANCH }}
         run: |
           yarn version-packages
           git config user.name github-actions
