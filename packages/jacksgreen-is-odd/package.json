@@ -1,6 +1,6 @@
 {
-  "name": "@jacksgreen/is-even",
-  "version": "0.0.1",
+  "name": "@jacksgreen/is-odd",
+  "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -15,13 +15,15 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
+  "dependencies": {
+    "is-even": "*"
+  },
   "devDependencies": {
     "@jacksgreen/tsconfig": "*",
     "eslint": "^7.32.0",
     "eslint-config-jacksgreen": "*",
     "tsup": "^5.10.1",
-    "typescript": "^4.5.3",
-    "@types/is-even": "*"
+    "typescript": "^4.5.3"
   },
   "publishConfig": {
     "access": "public"
