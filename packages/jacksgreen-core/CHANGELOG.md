@@ -1,5 +1,11 @@
 # @jacksgreen/core
 
+## 0.0.4
+
+### Patch Changes
+
+- f8495aa: fix(clean): clean
+
 ## 0.0.3
 
 ### Patch Changes
