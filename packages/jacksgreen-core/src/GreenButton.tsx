@@ -4,8 +4,8 @@ export interface ButtonProps {
   children: React.ReactNode;
 }
 
-export function RedButton(props: ButtonProps) {
+export function GreenButton(props: ButtonProps) {
   return <button>{props.children}</button>;
 }
 
-RedButton.displayName = "RedButton";
+GreenButton.displayName = "GreenButton";
