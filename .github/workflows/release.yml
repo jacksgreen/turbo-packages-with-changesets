@@ -14,7 +14,9 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PA_TOKEN }}
 
       - name: Setup Node.js 16.x
         uses: actions/setup-node@v2
@@ -35,8 +37,6 @@ jobs:
       #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Version packages
-        with:
-          token: ${{ secrets.PUSH_TO_PROTECTED_BRANCH }}
         run: |
           yarn version-packages
           git config user.name github-actions
