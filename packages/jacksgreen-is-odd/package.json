@@ -16,7 +16,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "is-even": "*"
+    "@jacksgreen/is-even": "*"
   },
   "devDependencies": {
     "@jacksgreen/tsconfig": "*",
