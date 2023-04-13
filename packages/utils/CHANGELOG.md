@@ -1,5 +1,11 @@
 # @jacksgreen/utils
 
+## 0.0.4
+
+### Patch Changes
+
+- f709fa6: bump
+
 ## 0.0.3
 
 ### Patch Changes

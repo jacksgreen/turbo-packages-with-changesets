@@ -1,5 +1,13 @@
 # @jacksgreen/is-odd
 
+## 0.0.3
+
+### Patch Changes
+
+- f709fa6: bump
+- Updated dependencies [f709fa6]
+  - @jacksgreen/is-even@0.0.7
+
 ## 0.0.2
 
 ### Patch Changes

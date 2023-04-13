@@ -1,5 +1,11 @@
 # @jacksgreen/core
 
+## 0.0.9
+
+### Patch Changes
+
+- f709fa6: bump
+
 ## 0.0.8
 
 ### Patch Changes
