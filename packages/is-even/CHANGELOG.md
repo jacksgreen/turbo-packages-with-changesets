@@ -1,5 +1,11 @@
 # @jacksgreen/is-even
 
+## 0.0.8
+
+### Patch Changes
+
+- cb87d22: add type
+
 ## 0.0.7
 
 ### Patch Changes
